@@ -20,11 +20,12 @@ GET /message
 
 
 ## Run
-
+```bash
 git clone https://github.com/SepantaaM/flask-redis-api
 cd flask-redis-api
+cp .env.example .env
 docker compose up --build
-
+```
 ## Concepts Demonstrated
 
 - Multi-container orchestration with Docker Compose
